@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgba(44, 53, 93);
+    filter: brightness(150%);
+    position: fixed;
+    top: 0;
+}
+
+body {
+    background-image: url("./vintage-wallpaper.png");
+    color: white;
+}
+
+.row {
+    margin: 0;
+}
+
+.col {
+    padding-right: 0;
+}
+
+.links {
+    margin-right: 5em;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+h5 {
+    font-weight: 700;
+}
+
+h6 {
+    font-weight: 700;
+}
+
+#resume {
+    /* font-family: 'Parisienne', cursive; */
+    font-size: 2.5em;
+    margin-left: .5em;
+}
+
+/* footer */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#intro {
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+#intro2 {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#profile-pic {
+    height: 35%;
+    width: 35%;
+    border: 2px solid rgb(0, 191, 254);
+    float: left;
+    margin: 1em 1em 0 0;
+}
+
+.page-footer {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+}
+
+#close-nav {
+    float: right;
+}
+
+.btn-flat {
+    background-color: rgb(44, 53, 93);
+    filter: brightness(150%);
+    color: white;
+    border-radius: .25em;
+    margin: 5px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.social {
+    font-size: 300%;
+    padding: 8px;
+}
+
+.project-pics {
+    height: 85%;
+    width: 85%;
+    border: 2px solid rgb(0, 191, 254);
+    margin-bottom: 1em;
+}
+
+a:visited {
+    background-color: rgb(44, 53, 93);
+}
+
+a:active {
+    background-color: rgb(44, 53, 93);
+}
+
+a:link {
+    background-color: rgb(44, 53, 93);
+}
+
+a:hover {
+    color: rgb(90, 161, 226);
+}
+
+.top:hover {
+    color: white;
+}
+
+#btc {
+    font-size: 250%;
+    position: relative;
+    left: 1.25em;
+    bottom: 3.75em;
+    opacity: .1;
+}
+
+#light {
+    font-size: 225%;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 5em;
+    top: 8.75em;
+    opacity: .1;
+}
+
+#cloud {
+    font-size: 400%;
+    position: absolute;
+    right: 1.25em;
+    top: 8.25em;
+    opacity: .1;
+}
+
+#light:hover {
+    opacity: .5;
+    color: white;
+}
+
+#btc:hover {
+    opacity: .5;
+    color: goldenrod;
+}
+
+#cloud:hover {
+    opacity: .5;
+    color: gray;
+}
