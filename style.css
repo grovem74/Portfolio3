@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +12,18 @@ nav {
 
 body {
     background-image: url("./images/vintage-wallpaper.png");
+    font-family: Roboto;
     color: white;
+    /* for footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* for footer */
+
+main {
+    flex: 1 0 auto;
 }
 
 p {
@@ -26,6 +37,7 @@ p.profile {
 
 .row {
     margin: 0;
+    margin-bottom: 0em;
 }
 
 .col {
@@ -48,22 +60,13 @@ h6 {
     font-weight: 700;
 }
 
-#resume {
-    /* font-family: 'Parisienne', cursive; */
+#name {
     font-size: 2.5em;
-    margin-left: .5em;
+    margin-left: 5%;
 }
 
-/* footer */
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
+#nav-mobile {
+    margin-right: 5%;
 }
 
 #intro {
@@ -114,9 +117,19 @@ main {
         border: 2px solid rgb(77, 118, 200);
         margin-bottom: 1em;
     }
-    #interests {
+    #interests-mobile {
         margin-top: 5%;
     }
+}
+
+@media only screen and (max-width: 768px) {
+    #interests-mobile {
+        display: none;
+    }
+    #interests {
+        display: block;
+    }
+   
 }
 
 @media only screen and (max-width: 1024px) {
@@ -129,12 +142,20 @@ main {
     #ycg, #wd, #wds, #talk {
         width: 95%;
     }
+    #interests-mobile {
+        display: none;
+    }
     #interests {
-        margin-top: 5%;
+        display: block;
+    }
+    #skills-title {
+        margin-top: -25%;
+        /* margin-bottom: 10%; */
+        padding-bottom: 15%;
     }
 }
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 2200px) {
     .project-pics {
         height: 70%;
         width: 200px;
@@ -144,8 +165,11 @@ main {
     #ycg, #wd, #wds, #talk {
         width: 95%;
     }
+    #interests-mobile {
+        display: none;
+    }
     #interests {
-        margin-top: 5%;
+        display: block;
     }
 }
 
@@ -165,15 +189,26 @@ a:hover {
     color: rgb(90, 161, 226);
 }
 
-.top {
-   color: rgb(77, 118, 200);
+#top {
+    font-size: 3em;
+    color: rgb(90, 161, 226);
 }
 
-.top:hover {
-    color: white;
+#top-div {
+    padding-bottom: 15%;
+}
+
+#top:hover {
+    color: rgb(44, 53, 93);
 }
 
 #interests {
+    font-size: 300%;
+    opacity: .1;
+    margin-top: 5%;
+}
+
+#interests-mobile {
     font-size: 300%;
     opacity: .1;
     margin-bottom: 10%;
@@ -209,3 +244,77 @@ hr {
 .nav-extended {
     z-index: 10;
 }
+
+.reverse {
+    color: rgb(77, 118, 200);
+}
+
+#last-row {
+    padding-bottom: 15%;
+}
+
+#contact {
+    padding: 0 0 20% 0;
+}
+
+#contact-form {
+    padding: 15% 0 20% 0;
+    margin: auto;
+}
+
+#contact-form-heading {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 10% 5% 15% 5%;
+}
+
+form {
+    margin-bottom: 10%;
+}
+
+#talk-title {
+    padding-top: 20%;
+    font-size: 1.5em;
+}
+
+#back {
+    position: absolute;
+    top: 1%;
+    right: 3%;
+}
+
+.head {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.list {
+    margin-left: 1em;
+}
+
+#skills-title {
+    position: relative;
+    bottom: 2.5em;
+}
+
+ #skills {
+    padding-bottom: 75%;
+}
+
+#resume {
+    padding-bottom: 60%;
+    padding-top: 10%;
+}
+
+.project-buttons {
+    padding-top: 5%;
+}
+
+.project-page {
+    padding-bottom: 15%;
+}
+
+#chat {
+    font-size: 400%;
+}
+

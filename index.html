@@ -12,16 +12,16 @@
 
 <body>
 
-
+  <div id="page-top"></div>
   <nav class="nav-extended">
     <div class="nav-wrapper">
-      <span id="resume">Matthew Grove</span>
+      <span id="name">Matthew Grove</span>
       <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#top">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#page-top" id="about-link">About</a></li>
+        <li><a href="#skills" id="skills-link">Skills</a></li>
+        <li><a href="#projects" id="projects-link">Projects</a></li>
+        <li><a href="#contact" id="contact-link">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -29,164 +29,187 @@
   <div>
     <ul class="sidenav" id="mobile-menu">
       <li><a class="sidenav-close" href="#" id="close-nav">close</a></li>
-      <li><a class="sidenav-close" href="#top">About</a></li>
-      <li><a class="sidenav-close" href="#skills">Skills</a></li>
-      <li><a class="sidenav-close" href="#projects">Projects</a></li>
-      <li><a class="sidenav-close" href="#contact">Contact</a></li>
+      <li><a class="sidenav-close" href="#page-top">About</a></li>
+      <li><a class="sidenav-close" href="#skills" id="nav-skills">Skills</a></li>
+      <li><a class="sidenav-close" href="#projects" id="nav-projects">Projects</a></li>
+      <li><a class="sidenav-close" href="#contact" id="nav-contact">Contact</a></li>
     </ul>
   </div>
+  <div class="container">
+    <div class="row valign-wrapper" id="intro">
+      <div class="col s12">
+        <h4>FULL STACK DEVELOPER</h4>
+        <div class="center-align">Awaiting new challenges.</div>
+      </div>
+    </div>
 
-  <div class="row valign-wrapper" id="intro">
-    <div class="col s12">
-      <h4>FULL STACK DEVELOPER</h4>
-      <div class="center-align">Awaiting new challenges.</div>
+    <div class="row valign-wrapper">
+      <div class="col m1 xl2 hide-on-small-only"></div>
+      <div class="col s12 m10 xl8">
+        <img id="profile-pic" class="responsive-image" src="https://via.placeholder.com/200">
+        <p class="profile"> I have always had a strong interest in technology. Going back to the days of the early video
+          game consoles, I found it fascinating how lines of computer code could translate into sophisticated,
+          interactive experiences. I enjoy learning about and utilizing new technologies.</p>
+        <div class="center-align" id="interests">
+          <a href="https://en.wikipedia.org/wiki/Blockchain" target="_BLANK"><i class="fab fa-bitcoin" id="btc"></i></a>
+          <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_BLANK"><i class="fas fa-lightbulb"
+              id="light"></i></a>
+          <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_BLANK"><i class="fas fa-cloud-download-alt"
+              id="cloud"></i></a>
+        </div>
+      </div>
+      <div class="col m1 xl2 hide-on-small-only"></div>
     </div>
-  </div>
 
-  <div class="row valign-wrapper">
-    <div class="col s1"></div>
-    <div class="col s10">
-      <img id="profile-pic" class="responsive-image" src="https://via.placeholder.com/200">
-      <p class="profile"> I have always had a strong interest in technology. Going back to the days of the early video
-        game consoles, I found it fascinating how lines of computer code could translate into sophisticated, interactive
-        experiences. I enjoy learning about and utilizing new technologies.</p>
-    </div>
-    <div class="col s1"></div>
-  </div><br>
-  <div class="center-align" id="interests">
-    <a href="https://en.wikipedia.org/wiki/Blockchain" target="_BLANK"><i class="fab fa-bitcoin" id="btc"></i></a>
-    <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_BLANK"><i class="fas fa-lightbulb"
-        id="light"></i></a>
-    <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_BLANK"><i class="fas fa-cloud-download-alt"
-        id="cloud"></i></a>
-  </div>
-  <div id="skills"></div>
-  <div class="row">
-    <div class="col s12 center-align">
-      <a class="btn-flat" href="./resume.txt" target="_BLANK">Learn More</a>
-    </div>
-  </div><br><br><br>
-  <hr>
-  <h5>SKILLS</h5>
-  <br><br>
-  <div class="row">
-    <div class="col m1 xl4 hide-on-small-only"></div>
-    <div class="col s4 m2 xl1 center-align">
-      <h6>LANGUAGES</h6>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS</li>
-        <li>JAVASCRIPT</li>
-      </ul>
-      </a>
-    </div>
-    <div class="col s4 m3 xl1 center-align">
-      <h6>FRAMEWORKS/<br>LIBRARIES</h6>
-      <ul>
-        <li>BOOTSTRAP</li>
-        <li>MATERIALIZE</li>
-        <li>JQUERY</li>
-      </ul>
-      </a>
-    </div>
-    <div class="col s4 m3 xl1 center-align">
-      <h6>TOOLS</h6>
-      <ul>
-        <li>GITHUB</li>
-        <li>GIT BASH</li>
-        <li>VISUAL STUDIO CODE</li>
-        <li>NODE JS</li>
-      </ul>
-      </a>
-    </div>
-    <div class="col s12 m2 xl1 center-align">
-      <h6>OTHER</h6>
-      <ul>
-        <li>SCRUM</li>
-        <li>KANBAN</li>
-        <li>AGILE DEV</li>
-      </ul>
-      </a>
-    </div>
-    <div class="col m1 xl4 hide-on-small-only"></div>
-  </div><br><br>
-  <div id="projects"></div>
-  <div class="center-align">
-    <a href="#top"><i class="material-icons top">keyboard_arrow_up</i></a>
-  </div><br><br>
-  <hr>
-
-  <h5>PROJECTS</h5><br><br>
-  <div class="row valign-wrapper">
-    <div class="col m1 xl2 hide-on-small-only"></div>
-    <div class="col s12 m10 xl8 center-align">
-      <h6>Your City Guide</h6>
-      <p id="ycg" class="middle">Search for upcoming events in a city near you! This application was built using
-        HTML, Materialize CSS and Javascript. The AJAX method was utilized to obtain data from 3rd-party APIs for events
-        and restaurants in several major cities. This team project required the use of scrum and kanban project
-        management concepts.</p>
-      <br>
-      <img src="https://media.giphy.com/media/hT7Gew4qmRANxacNv6/giphy.gif" class="project-pics"
-        style="height: 70%; width: 70%">
-      <div>
-        <div class="row center-align">
-          <a class="btn-flat" href="https://grovem74.github.io/MY-Project-1/" target="_BLANK">Site</a>
-          <a class="btn-flat" href="https://github.com/grovem74/MY-Project-1" target="_BLANK">Repo</a>
+    <div class="row">
+      <div class="col s12">
+        <div class="center-align" id="interests-mobile">
+          <a href="https://en.wikipedia.org/wiki/Blockchain" target="_BLANK"><i class="fab fa-bitcoin" id="btc"></i></a>
+          <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_BLANK"><i class="fas fa-lightbulb"
+              id="light"></i></a>
+          <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_BLANK"><i class="fas fa-cloud-download-alt"
+              id="cloud"></i></a>
         </div>
       </div>
     </div>
-    <div class="col m1 xl2 hide-on-small-only"></div>
-  </div><br><br><br>
 
-  <div class="row valign-wrapper">
-    <div class="col m1 xl2 hide-on-small-only"></div>
-    <div class="col s12 m10 xl8 center-align">
-      <h6>Weather Dashboard</h6>
-      <p id="wd" class="middle">Check current and future weather conditions for cities around the world! This
-        application was built using HTML, Bootstrap CSS and Javascript. The AJAX method was utilized to obtain data from
-        a 3rd-party APIs for current weather conditions and extended forcasts.</p><br>
-      <img src="https://media.giphy.com/media/fX1acoV0V1NtJiytfQ/giphy.gif" class="project-pics"
-        style="height: 70%; width: 70%">
-    </div>
-    <div class="col m1 xl2 hide-on-small-only"></div>
-  </div>
-  <div class="center-align"><br>
-  <a class="btn-flat" href="https://grovem74.github.io/weatherDashboard/" target="_BLANK">Site</a>
-  <a class="btn-flat" href="https://github.com/grovem74/weatherDashboard" target="_BLANK">Repo</a>
-  </div>
-  </div><br><br><br>
 
-  <div class="row valign-wrapper">
-    <div class="col m1 xl2 hide-on-small-only"></div>
-    <div class="col s12 m10 xl8 center-align">
-      <h6>Work Day Scheduler</h6>
-      <p id="wds" class="middle">Create tasks to help organize your work day! This application was built using HTML,
-        Bootstrap
-        CSS and
-        Javascript. Moment.js was utilized to format the time.</p><br>
-      <img src="https://media.giphy.com/media/IeQwUcMzVIK9rm2eLt/giphy.gif" class="project-pics"
-        style="height: 70%; width: 70%">
+    <div class="row" id="resume">
+      <div class="col s12 center-align">
+        <a class="btn-flat" href="./resume.html">Learn More</a>
+      </div>
     </div>
-    <div class="col m1 xl2 hide-on-small-only"></div>
-  </div>
-  <div class="center-align"><br>
-    <a class="btn-flat" href="https://grovem74.github.io/workDayScheduler/" target="_BLANK">Site</a>
-    <a class="btn-flat" href="https://github.com/grovem74/workDayScheduler" target="_BLANK">Repo</a>
-  </div><br><br>
-  <div class="center-align">
-    <a href="#top"><i class="material-icons top">keyboard_arrow_up</i></a>
-  </div><br><br>
-  <hr>
 
-  <h5>Let's Talk.</h5>
-  <div class="row">
-    <div class="col m1 xl4 hide-on-large-and-down"></div>
-    <div class="col s12 xl4 center-align">
-      <p id="talk" class="middle">Every great relationship starts with a conversation.<br> I would love to chat with you
-        about your next project.</p>
+    <div class="row white reverse" id="skills">
+      <h5 id="skills-title" class=>SKILLS</h5><br><br>
+      <div class="col s6 center-align">
+        <h6>LANGUAGES</h6>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+      </div>
+      <div class="col s6 center-align">
+        <h6>FRAMEWORKS/<br>LIBRARIES</h6>
+        <ul>
+          <li>BOOTSTRAP</li>
+          <li>MATERIALIZE</li>
+          <li>JQUERY</li>
+        </ul>
+      </div>
+      <div class="col s6 center-align">
+        <h6>TOOLS</h6>
+        <ul>
+          <li>GITHUB</li>
+          <li>GIT BASH</li>
+          <li>VISUAL STUDIO CODE</li>
+          <li>NODE JS</li>
+        </ul>
+      </div>
+      <div class="col s6 center-align">
+        <h6>OTHER</h6>
+        <ul>
+          <li>SCRUM</li>
+          <li>KANBAN</li>
+          <li>AGILE DEV</li>
+        </ul>
+      </div>
+    </div><br><br>
+
+    <div id="projects"></div><br><br><br>
+
+    <div class="row">
+      <div class="col m1 xl2 hide-on-small-only"></div>
+      <div class="col s12 m10 xl8">
+        <h5>PROJECTS</h5><br><br>
+      </div>
+      <div class="col m1 xl2 hide-on-small-only"></div>
     </div>
-    <div class="col m1 xl4 hide-on-large-and-down"></div>
-  </div><br>
+
+    <div class="row valign-wrapper project-page">
+      <div class="col m1 xl2 hide-on-small-only"></div>
+      <div class="col s12 m10 xl8 center-align">
+        <h6>Your City Guide</h6>
+        <p id="ycg" class="middle reverse">Search for upcoming events in a city near you! This application was built
+          using
+          HTML, Materialize CSS and Javascript. The AJAX method was utilized to obtain data from 3rd-party APIs for
+          events
+          and restaurants in several major cities. This team project required the use of scrum and kanban project
+          management concepts.</p>
+        <br>
+        <img src="https://media.giphy.com/media/hT7Gew4qmRANxacNv6/giphy.gif" class="project-pics"
+          style="width: 75%; height: 55%">
+        <div>
+          <div class="center-align project-buttons">
+            <a class="btn-flat" href="https://grovem74.github.io/MY-Project-1/" target="_BLANK">Site</a>
+            <a class="btn-flat" href="https://github.com/grovem74/MY-Project-1" target="_BLANK">Repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m1 xl2 hide-on-small-only"></div>
+    </div><br><br><br><br><br><br><br><br>
+
+    <hr><br>
+    <div class="row valign-wrapper project-page">
+      <div class="col m1 xl2 hide-on-small-only"></div>
+      <div class="col s12 m10 xl8 center-align">
+        <h6>Weather Dashboard</h6>
+        <p id="wd" class="middle reverse">Check current and future weather conditions for cities around the world! This
+          application was built using HTML, Bootstrap CSS and Javascript. The AJAX method was utilized to obtain data
+          from
+          a 3rd-party APIs for current weather conditions and extended forcasts.</p><br>
+        <img src="https://media.giphy.com/media/fX1acoV0V1NtJiytfQ/giphy.gif" class="project-pics"
+          style="width: 75%; height: 55%">
+        <div>
+          <div class="center-align project-buttons">
+            <a class="btn-flat" href="https://grovem74.github.io/weatherDashboard/" target="_BLANK">Site</a>
+            <a class="btn-flat" href="https://github.com/grovem74/weatherDashboard" target="_BLANK">Repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m1 xl2 hide-on-small-only"></div>
+    </div><br><br><br><br><br><br><br><br>
+    <hr><br>
+
+    <div class="row valign-wrapper project-page" id="last-row">
+      <div class="col m1 xl2 hide-on-small-only"></div>
+      <div class="col s12 m10 xl8 center-align">
+        <h6>Work Day Scheduler</h6>
+        <p id="wds" class="middle reverse">Create tasks to help organize your work day! This application was built using
+          HTML, Bootstrap CSS and Javascript. Moment.js was utilized to format the time.</p><br>
+        <img src="https://media.giphy.com/media/IeQwUcMzVIK9rm2eLt/giphy.gif" class="project-pics"
+          style="width: 75%; height: 55%">
+        <div>
+          <div class="center-align project-buttons" id="prjoect-end">
+            <a class="btn-flat" href="https://grovem74.github.io/workDayScheduler/" target="_BLANK">Site</a>
+            <a class="btn-flat" href="https://github.com/grovem74/workDayScheduler" target="_BLANK">Repo</a>
+          </div>
+        </div>
+      </div>
+      <div class="col m1 xl2 hide-on-small-only"></div>
+    </div><br><br>
+
+    <div class="row center-align" id="top-div">
+      <div class="col s12">
+        <a href="#page-top"><i class="material-icons" id="top">arrow_drop_up</i></a>
+      </div>
+    </div>
+
+
+    <div class="row" id="contact">
+      <div class="col m1 xl4 hide-on-large-and-down"></div>
+      <div class="col s12 xl4 center-align">
+        <i class="material-icons" id="chat">chat_bubble</i><br><br>
+        <span id="talk-title">Let's Talk.</span>
+        <p id="talk" class="middle">Every great relationship starts with a conversation.<br> I would love to chat with
+          you about your next project.</p><br>
+        <a class="btn-flat" href="./contactForm.html">Contact Me</a>
+      </div>
+      <div class="col m1 xl4 hide-on-large-and-down"></div>
+    </div>
+
+  </div>
 
   <footer class="page-footer" id="contact">
     <div class="container">
@@ -207,6 +230,7 @@
       </div>
     </div>
   </footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
