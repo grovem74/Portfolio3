@@ -10,6 +10,7 @@ nav {
     top: 0;
 }
 
+
 body {
     background-image: url("./images/vintage-wallpaper.png");
     font-family: Roboto;
@@ -61,7 +62,7 @@ h6 {
 }
 
 #name {
-    font-size: 2.5em;
+    font-size: 2.25em;
     margin-left: 5%;
 }
 
@@ -72,6 +73,11 @@ h6 {
 #intro, #skills {
     margin-top: 10em;
     margin-bottom: 5em;
+}
+
+#skills {
+    background-image: url("./images/white_paperboard.png");
+    color: rgb(44, 53, 93);
 }
 
 #profile-pic {
@@ -116,6 +122,10 @@ h6 {
     #interests-mobile {
         margin-top: 5%;
     }
+    #resume {
+        position: relative;
+        top: .25em;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -125,7 +135,10 @@ h6 {
     #interests {
         display: block;
     }
-   
+    #resume {
+        position: relative;
+        top: .25em;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -148,12 +161,24 @@ h6 {
         margin-top: -25%;
         padding-bottom: 15%;
     }
+    #resume {
+        position: relative;
+        top: 2.25em;
+    }
 }
 
-@media only screen and (max-width: 2200px) {
+@media only screen and (max-width: 1600px) {
+    #resume {
+        position: relative;
+        top: 5.25em;
+    }
+}
+
+
+@media only screen and (max-width: 3800px) {
     .project-pics {
-        height: 70%;
-        width: 200px;
+        height: 80%;
+        width: 80%;
         border: 3px solid rgb(77, 118, 200);
         margin-bottom: 1em;
     }
@@ -165,6 +190,19 @@ h6 {
     }
     #interests {
         display: block;
+    }
+    #profile-pic {
+        height: 25%;
+        width: 25%;
+    }
+    #main-container {
+        width: 100vw;
+        margin: 0 auto;
+        max-width: 2200px;
+    }
+    #resume {
+        position: relative;
+        bottom: 2.5em;
     }
 }
 
@@ -250,17 +288,17 @@ hr {
 
 #contact {
     padding: 0 0 20% 0;
+    background-image: url("./images/white_paperboard.png");
 }
 
 #contact-form {
     padding: 15% 0 20% 0;
-    margin: auto;
 }
 
 #contact-form-heading {
     text-align: center;
     font-size: 1.25em;
-    margin: 10% 5% 15% 5%;
+    margin: 10% 5% 25% 5%;
 }
 
 form {
@@ -270,6 +308,11 @@ form {
 #talk-title {
     padding-top: 20%;
     font-size: 1.5em;
+    color: rgb(44, 53, 93);
+}
+
+#talk {
+color: rgb(44, 53, 93);
 }
 
 #back {
@@ -290,6 +333,7 @@ form {
  #skills-title {
     position: relative;
     bottom: -15px;
+    color: rgb(44, 53, 93);
 } 
 
  #skills {
@@ -311,6 +355,7 @@ form {
 
 #chat {
     font-size: 400%;
+    color: rgb(44, 53, 93);
 }
 
 #close-nav {
@@ -342,7 +387,7 @@ form {
 }
 
 #resume-details {
-    margin-top: 5%;
+    margin-top: 7em;
 }
 
 .resume-bold {
