@@ -69,7 +69,7 @@ h6 {
     margin-right: 5%;
 }
 
-#intro {
+#intro, #skills {
     margin-top: 10em;
     margin-bottom: 5em;
 }
@@ -85,10 +85,6 @@ h6 {
 .page-footer {
     background-color: rgb(44, 53, 93);
     filter: brightness(150%);
-}
-
-#close-nav {
-    float: right;
 }
 
 .btn-flat {
@@ -150,7 +146,6 @@ h6 {
     }
     #skills-title {
         margin-top: -25%;
-        /* margin-bottom: 10%; */
         padding-bottom: 15%;
     }
 }
@@ -292,10 +287,10 @@ form {
     margin-left: 1em;
 }
 
-#skills-title {
+ #skills-title {
     position: relative;
-    bottom: 2.5em;
-}
+    bottom: -15px;
+} 
 
  #skills {
     padding-bottom: 75%;
@@ -318,3 +313,39 @@ form {
     font-size: 400%;
 }
 
+#close-nav {
+    float: right;
+}
+
+#about-mobile, #skills-mobile, #projects-mobile, #contact-mobile, #close {
+    color: white;
+}
+
+#download-div {
+    margin-top: 5%;
+}
+
+#download {
+    color: rgb(77, 118, 200);
+}
+
+#download:hover {
+    color: white;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+#experience {
+    padding-bottom: .25em;
+}
+
+#resume-details {
+    margin-top: 5%;
+}
+
+.resume-bold {
+    font-weight: 700;
+    padding-top: .25em;
+}

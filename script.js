@@ -4,19 +4,18 @@ document.addEventListener('DOMContentLoaded', function() {
     var instances = M.Sidenav.init(elems);
   });
 
-  $("#nav-about").on("click", function (){
+  $("#about-mobile").on("click", function (){
     $("#about").attr("style", "padding: 50% 0 80% 0");
   });
 
-  $("#nav-contact").on("click", function (){
+  $("#contact-mobile").on("click", function (){
     $("#contact").attr("style", "padding: 40% 0 60% 0");
   });
 
-  $("#nav-skills").on("click", function (){
-    $("#skills").attr("style", "padding-top: 60%");
-    $("#skills-2").attr("style", "padding-bottom: 80%");
+  $("#skills-mobile").on("click", function (){
+    $("#skills-title").attr("style", "bottom: 5.5em");
+    $("#skills").attr("style", "padding-top: 80%");
   });
-
   
   $("#about-link").on("click", function (){
     $("#about").attr("style", "padding: 50% 0 80% 0");
@@ -29,3 +28,4 @@ document.addEventListener('DOMContentLoaded', function() {
   $("#skills-link").on("click", function (){
     $("#skills").attr("style", "padding: 60% 0");
   });
+
