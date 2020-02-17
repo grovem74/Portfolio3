@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,7 +16,7 @@ nav {
 
 body {
     background-image: url("./images/vintage-wallpaper.png");
-    font-family: Roboto;
+    font-family: roboto slab;
     color: white;
     /* for footer */
     display: flex;
@@ -53,6 +56,11 @@ h4, h5 {
     text-align: center;
 }
 
+h4 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
 h5 {
     font-weight: 700;
 }
@@ -62,7 +70,7 @@ h6 {
 }
 
 #name {
-    font-size: 2.25em;
+    font-size: 1.75em;
     margin-left: 5%;
 }
 
@@ -81,8 +89,8 @@ h6 {
 }
 
 #profile-pic {
-    height: 35%;
-    width: 35%;
+    /* height: 35%;
+    width: 35%; */
     border: 2px solid rgb(77, 118, 200);
     float: left;
     margin: 1em 1em 0 .75em;
@@ -252,18 +260,18 @@ a:hover {
 }
 
 #light:hover {
-    opacity: .5;
-    color: white;
+    opacity: 1;
+    color: #f28500;
 }
 
 #btc:hover {
-    opacity: .5;
-    color: goldenrod;
+    opacity: 1;
+    color: #f28500;
 }
 
 #cloud:hover {
-    opacity: .5;
-    color: gray;
+    opacity: 1;
+    color: #f28500;
 }
 
 hr {
@@ -279,7 +287,7 @@ hr {
 }
 
 .reverse {
-    color: rgb(77, 118, 200);
+    color: #f28500;
 }
 
 #last-row {
@@ -307,9 +315,10 @@ form {
 
 #talk-title {
     padding-top: 20%;
-    font-size: 1.5em;
     color: rgb(44, 53, 93);
-}
+    font-size: 2.25em;
+} 
+
 
 #talk {
 color: rgb(44, 53, 93);
@@ -334,7 +343,13 @@ color: rgb(44, 53, 93);
     position: relative;
     bottom: -15px;
     color: rgb(44, 53, 93);
+    font-size: 2.25em;
 } 
+
+#projects-title {
+    font-size: 2.25em;
+} 
+
 
  #skills {
     padding-bottom: 75%;
@@ -355,7 +370,7 @@ color: rgb(44, 53, 93);
 
 #chat {
     font-size: 400%;
-    color: rgb(44, 53, 93);
+    color: #f28500
 }
 
 #close-nav {
@@ -393,4 +408,8 @@ color: rgb(44, 53, 93);
 .resume-bold {
     font-weight: 700;
     padding-top: .25em;
+}
+
+#hamburger-menu, #awaiting {
+    color: #f28500;
 }

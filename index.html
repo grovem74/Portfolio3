@@ -16,7 +16,7 @@
   <nav class="nav-extended">
     <div class="nav-wrapper">
       <span id="name">Matthew Grove</span>
-      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons" id="hamburger-menu">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="#page-top" id="about-link">About</a></li>
         <li><a href="#skills" id="skills-link">Skills</a></li>
@@ -40,14 +40,14 @@
     <div class="row valign-wrapper" id="intro">
       <div class="col s12">
         <h4>FULL STACK DEVELOPER</h4>
-        <div class="center-align">Awaiting new challenges.</div>
+        <div class="center-align" id="awaiting">Awaiting new challenges.</div>
       </div>
     </div>
 
     <div class="row valign-wrapper">
       <div class="col m1 xl2 hide-on-small-only"></div>
       <div class="col s12 m10 xl8">
-        <img id="profile-pic" class="responsive-image" src="https://via.placeholder.com/200">
+        <img id="profile-pic" class="responsive-image" src="./images/profileBW.jpg" alt="profile picture">
         <p class="profile"> I have always had a strong interest in technology. Going back to the days of the early video
           game consoles, I found it fascinating that lines of computer code could translate into sophisticated,
           interactive experiences. The possibilities that technology provide are limited only by the imagination.</p>
@@ -65,15 +65,14 @@
     <div class="row">
       <div class="col s12">
         <div class="center-align" id="interests-mobile">
-          <a href="https://en.wikipedia.org/wiki/Blockchain" target="_BLANK"><i class="fab fa-bitcoin" id="btc"></i></a>
+          <a href="https://en.wikipedia.org/wiki/Blockchain" target="_BLANK"><i class="fab fa-bitcoin" id="btc2"></i></a>
           <a href="https://en.wikipedia.org/wiki/Internet_of_things" target="_BLANK"><i class="fas fa-lightbulb"
-              id="light"></i></a>
+              id="light2"></i></a>
           <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_BLANK"><i class="fas fa-cloud-download-alt"
-              id="cloud"></i></a>
+              id="cloud2"></i></a>
         </div>
       </div>
     </div>
- 
  
     <div class="row" id="resume">
       <div class="col s12 center-align">
@@ -82,7 +81,7 @@
     </div>
 
     <div class="row" id="skills">
-      <h5 id="skills-title" class=>SKILLS</h5><br><br>
+      <h5 id="skills-title">SKILLS</h5><br><br>
       <div class="col s6 center-align">
         <h6>LANGUAGES</h6>
         <ul>
@@ -123,7 +122,7 @@
     <div class="row">
       <div class="col m1 xl2 hide-on-small-only"></div>
       <div class="col s12 m10 xl8">
-        <h5>PROJECTS</h5><br><br>
+        <h5 id="projects-title">PROJECTS</h5><br><br>
       </div>
       <div class="col m1 xl2 hide-on-small-only"></div>
     </div>
@@ -139,7 +138,7 @@
           and restaurants in several major cities. This team project required the use of scrum and kanban project
           management concepts.</p>
         <br>
-        <img src="https://media.giphy.com/media/hT7Gew4qmRANxacNv6/giphy.gif" class="project-pics"
+        <img src="https://media.giphy.com/media/hT7Gew4qmRANxacNv6/giphy.gif" alt="Your City Guide" class="project-pics"
           style="width: 75%; height: 55%">
         <div>
           <div class="center-align project-buttons">
@@ -160,7 +159,7 @@
           application was built using HTML, Bootstrap CSS and Javascript. The AJAX method was utilized to obtain data
           from
           a 3rd-party APIs for current weather conditions and extended forcasts.</p><br>
-        <img src="https://media.giphy.com/media/fX1acoV0V1NtJiytfQ/giphy.gif" class="project-pics"
+        <img src="https://media.giphy.com/media/fX1acoV0V1NtJiytfQ/giphy.gif" class="project-pics" alt="Weather Dashboard"
           style="width: 75%; height: 55%">
         <div>
           <div class="center-align project-buttons">
@@ -179,7 +178,7 @@
         <h6>Work Day Scheduler</h6>
         <p id="wds" class="middle reverse">Create tasks to help organize your work day! This application was built using
           HTML, Bootstrap CSS and Javascript. Moment.js was utilized to format the time.</p><br>
-        <img src="https://media.giphy.com/media/IeQwUcMzVIK9rm2eLt/giphy.gif" class="project-pics"
+        <img src="https://media.giphy.com/media/IeQwUcMzVIK9rm2eLt/giphy.gif" class="project-pics" alt="Work Day Scheduler"
           style="width: 75%; height: 55%">
         <div>
           <div class="center-align project-buttons" id="prjoect-end">
@@ -202,7 +201,7 @@
       <div class="col m1 xl4 hide-on-large-and-down"></div>
       <div class="col s12 xl4 center-align">
         <i class="material-icons" id="chat">chat_bubble</i><br><br>
-        <span id="talk-title">Let's Talk.</span>
+        <h5 id="talk-title">Let's Talk.</h5>
         <p id="talk" class="middle">Every great relationship starts with a conversation.<br> I would love to chat with
           you about your next project.</p><br>
         <a class="btn-flat" href="./contactForm.html">Contact Me</a>
