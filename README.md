@@ -1,6 +1,6 @@
 # Portfolio3
 
-![Portfolio3](Images/portfolioPic.JPG)
+![Portfolio3](images/PortfolioPic.JPG)
 
 The purpose of this site is to provide display my coding projects for potential employers or freelance clients.
 
