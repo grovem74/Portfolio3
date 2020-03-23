@@ -109,11 +109,11 @@ h6 {
     margin: 5px;
 }
 
-.container {
+/* .container {
     width: 100%;
     margin: 0 auto;
     max-width: 1600px;
-}
+} */
 
 .social {
     font-size: 300%;
@@ -156,7 +156,7 @@ h6 {
         border: 2px solid rgb(77, 118, 200);
         margin-bottom: 1em;
     }
-    #ycg, #wd, #wds, #talk {
+    #edb, #ycg, #wd, #talk {
         width: 95%;
     }
     #interests-mobile {
