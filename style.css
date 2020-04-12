@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
-
 html {
     scroll-behavior: smooth;
 }
@@ -12,7 +10,6 @@ nav {
     position: fixed;
     top: 0;
 }
-
 
 body {
     background-image: url("./images/vintage-wallpaper.png");
@@ -78,19 +75,24 @@ h6 {
     margin-right: 5%;
 }
 
-#intro, #skills {
-    margin-top: 10em;
-    margin-bottom: 5em;
+#intro, #contact {
+    position: relative;
+    top: 10em;
+    height: 100vh;
 }
 
 #skills {
     background-image: url("./images/white_paperboard.png");
     color: rgb(44, 53, 93);
+    height: 100vh;
+}
+
+#skills-list {
+    position: relative;
+    top: -3.25em;
 }
 
 #profile-pic {
-    /* height: 35%;
-    width: 35%; */
     border: 2px solid rgb(77, 118, 200);
     float: left;
     margin: 1em 1em 0 .75em;
@@ -109,12 +111,6 @@ h6 {
     margin: 5px;
 }
 
-/* .container {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1600px;
-} */
-
 .social {
     font-size: 300%;
     padding: 8px;
@@ -130,9 +126,30 @@ h6 {
     #interests-mobile {
         margin-top: 5%;
     }
+    #intro {
+        position: relative;
+        top: 10em;
+        margin-bottom: 6.75em;
+    }
     #resume {
         position: relative;
         top: .25em;
+    }
+    #learn {
+        margin: 4em 0;
+        /* margin-bottom: 3em; */
+    }
+    #skills-list {
+        position: relative;
+        top: -11em;
+    }
+    #contact {
+        position: relative;
+        bottom: 18em;
+        margin-bottom: 10em;
+    }
+    #talk-title {
+        margin-top: 35%;
     }
 }
 
@@ -147,6 +164,13 @@ h6 {
         position: relative;
         top: .25em;
     }
+    #chat {
+        padding-bottom: 1em;
+    }
+    #talk-title {
+        margin-top: -9em;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -156,7 +180,7 @@ h6 {
         border: 2px solid rgb(77, 118, 200);
         margin-bottom: 1em;
     }
-    #edb, #ycg, #wd, #talk {
+    #ycg, #bg, #edb, #tt, #rg, #wd, #talk {
         width: 95%;
     }
     #interests-mobile {
@@ -173,6 +197,12 @@ h6 {
         position: relative;
         top: 2.25em;
     }
+    #talk-title {
+        margin-top: -3em;
+    }
+    #chat {
+        margin-top: 5em;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -182,7 +212,6 @@ h6 {
     }
 }
 
-
 @media only screen and (max-width: 3800px) {
     .project-pics {
         height: 80%;
@@ -190,7 +219,7 @@ h6 {
         border: 3px solid rgb(77, 118, 200);
         margin-bottom: 1em;
     }
-    #ycg, #wd, #wds, #talk {
+    #ycg, #bg, #edb, #tt, #rg, #wd, #talk {
         width: 95%;
     }
     #interests-mobile {
@@ -233,14 +262,16 @@ a:hover {
 #top {
     font-size: 3em;
     color: rgb(90, 161, 226);
+    position: relative;
+    bottom: 3.5em;
 }
 
 #top-div {
-    padding-bottom: 15%;
+    padding-bottom: 14%;
 }
 
 #top:hover {
-    color: rgb(44, 53, 93);
+    color: white;
 }
 
 #interests {
@@ -295,7 +326,7 @@ hr {
 }
 
 #contact {
-    padding: 0 0 20% 0;
+    padding: 0 0 10% 0;
     background-image: url("./images/white_paperboard.png");
 }
 
@@ -314,14 +345,13 @@ form {
 }
 
 #talk-title {
-    padding-top: 20%;
+    padding-top: 35%;
     color: rgb(44, 53, 93);
     font-size: 2.25em;
-} 
-
+}
 
 #talk {
-color: rgb(44, 53, 93);
+    color: rgb(44, 53, 93);
 }
 
 #back {
@@ -339,21 +369,20 @@ color: rgb(44, 53, 93);
     margin-left: 1em;
 }
 
- #skills-title {
+#skills-title {
     position: relative;
     bottom: -15px;
     color: rgb(44, 53, 93);
     font-size: 2.25em;
-} 
+}
 
 #projects-title {
     font-size: 2.25em;
-} 
-
-
- #skills {
-    padding-bottom: 75%;
 }
+
+/* #skills {
+    padding-bottom: 75%;
+} */
 
 #resume {
     padding-bottom: 60%;
@@ -370,7 +399,9 @@ color: rgb(44, 53, 93);
 
 #chat {
     font-size: 400%;
-    color: #f28500
+    color: #f28500;
+    position: relative;
+    top: 3.75em;
 }
 
 #close-nav {
@@ -412,4 +443,13 @@ color: rgb(44, 53, 93);
 
 #hamburger-menu, #awaiting {
     color: #f28500;
+}
+
+#learn {
+    position: relative;
+    left: 30vw;
+}
+
+#team, #solo {
+    font-size: 1.5em;
 }
